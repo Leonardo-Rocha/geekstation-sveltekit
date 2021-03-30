@@ -1,6 +1,7 @@
 devDependencies:
   '@sveltejs/adapter-node': 1.0.0-next.10
-  '@sveltejs/kit': 1.0.0-next.58_svelte@3.35.0+vite@2.1.2
+  '@sveltejs/adapter-vercel': 1.0.0-next.8
+  '@sveltejs/kit': 1.0.0-next.64_svelte@3.35.0+vite@2.1.2
   sass: 1.32.8
   svelte: 3.35.0
   svelte-preprocess: 4.6.9_3267835ea6c3508f3743accbc37c06ef
@@ -24,7 +25,11 @@ packages:
     dev: true
     resolution:
       integrity: sha512-v62a9nQguK53ldwBp4FizvwW1Kh2wOZBjJKGlnZFhO9e1Z/LoIqR9LH5dVHz9d5K19or5ap3hRdS91WkkDgu4w==
-  /@sveltejs/kit/1.0.0-next.58_svelte@3.35.0+vite@2.1.2:
+  /@sveltejs/adapter-vercel/1.0.0-next.8:
+    dev: true
+    resolution:
+      integrity: sha512-bclTDgJIDt17QRdq+u4CqdsQO08MXYhqdlr7O7LcCMWf8PWS5N0l9ValJbKAFcXD5xseqRF9YtUkHKAxMjS54Q==
+  /@sveltejs/kit/1.0.0-next.64_svelte@3.35.0+vite@2.1.2:
     dependencies:
       '@sveltejs/vite-plugin-svelte': 1.0.0-next.5_svelte@3.35.0+vite@2.1.2
       cheap-watch: 1.0.3
@@ -37,7 +42,7 @@ packages:
       svelte: ^3.32.1
       vite: ^2.1.0
     resolution:
-      integrity: sha512-Ta4VY1Wxc533+hwnPwEVMgMn43L1lwafTLZHksXO3rpnl/+IcXV1v6j4cTTkQiqEslU4wMZyxIpzWzZGQAypPg==
+      integrity: sha512-ccLesgGBDEkbYnz9j+xHfwkO6EF/oka9sPS+OEsveN5gmYF3o7j13Q8lZQgyXOTuUnnB+WDsklHL36ihWZzNkw==
   /@sveltejs/vite-plugin-svelte/1.0.0-next.5_svelte@3.35.0+vite@2.1.2:
     dependencies:
       '@rollup/pluginutils': 4.1.0
@@ -488,6 +493,7 @@ packages:
       integrity: sha512-K96k5Nb1kywggFwZNGf/NQVZIrjMSvjebYWFIEQRu8AQWtzxatMF8/reExFXebmrfWAT3PTUk6l4zJBkpMtyVg==
 specifiers:
   '@sveltejs/adapter-node': next
+  '@sveltejs/adapter-vercel': next
   '@sveltejs/kit': next
   sass: ^1.0.0
   svelte: ^3.29.0
