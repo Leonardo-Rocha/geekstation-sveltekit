@@ -1,8 +1,8 @@
 {
 	"background_color": "#ffffff",
-	"theme_color": "#333333",
-	"name": "TODO",
-	"short_name": "TODO",
+	"theme_color": "#ff6600",
+	"name": "Geekstation Games and Tech News",
+	"short_name": "Geekstation",
 	"display": "minimal-ui",
 	"start_url": "/",
 	"icons": [
